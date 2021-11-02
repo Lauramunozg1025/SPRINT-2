@@ -1,0 +1,424 @@
+fieldset {
+    position: absolute;
+    width: 360px;
+    height: 640px;
+    left: 300px;
+    top: 64px;
+    background: linear-gradient(180deg, #FEFEFE 0%, #E9ECEE 37.34%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 13px 13px 10px #E6E5E5;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 64px;
+    margin-right: 706px;
+    margin-bottom: 64px;
+}
+
+#resultado {
+    width: 293px;
+    height: 87px;
+    left: 34px;
+    top: 76px;
+    background: #A5A5A5;
+    border-color: #000000;
+    border-width: 10px;
+    border-radius: 10px;
+    color: #3F474E;
+    margin-top: 65px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+
+#borrar {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 220px;
+    left: 20px;
+    border-radius: 30px;
+    background-color: #FE9505;
+    color: #FFFFFF;
+    border: 0cm;
+    filter: drop-shadow();
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 1);
+    box-shadow: 4px 4px 4px 0px rgba(222, 191, 129, 1);
+
+}
+
+#borrar a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#masMenos {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 220px;
+    left: 104px;
+    border-radius: 30px;
+    background-color: #F5F0E3;
+    color: #627785;
+    border: 0cm;
+    box-shadow: 4px 4px 4px #E0DBCE, -4px -4px 4px #FDFDFD;
+}
+
+#masMenos a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#porcentaje {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 220px;
+    left: 188px;
+    border-radius: 30px;
+    background-color: #F5F0E3;
+    color: #627785;
+    border: 0cm;
+    box-shadow: 4px 4px 4px #E0DBCE, -4px -4px 4px #FDFDFD;
+}
+
+#porcentaje a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#division {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 220px;
+    left: 272px;
+    border-radius: 30px;
+    background-color: #D5D6E9;
+    border: 0cm;
+    box-shadow: 4px 4px 4px #D6C9DF, -4px -4px 4px #FFFFFF;
+    color: #111C81;
+}
+
+#por {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 304px;
+    left: 272px;
+    border-radius: 30px;
+    background-color: #D5D6E9;
+    border: 0cm;
+    box-shadow: 4px 4px 4px #D6C9DF, -4px -4px 4px #FFFFFF;
+    color: #111C81;
+}
+
+#menos {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 272px;
+    top: 388px;
+    border-radius: 30px;
+    background-color: #D5D6E9;
+    border: 0cm;
+    box-shadow: 4px 4px 5px #D6C9DF, -4px -4px 5px #FFFFFF;
+    color: #111C81;
+}
+
+#mas {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 472px;
+    left: 272px;
+    border-radius: 30px;
+    background-color: #D5D6E9;
+    border: 0cm;
+    box-shadow: 4px 4px 5px #D6C9DF, -4px -4px 5px #FFFFFF;
+    color: #111C81;
+}
+
+#igual {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 556px;
+    left: 272px;
+    border-radius: 30px;
+    background-color: #2D41F5;
+    border: 0cm;
+    box-shadow: 4px 4px 5px #6976E9, -4px -4px 3px #FFFFFF;
+    color: #FFFFFF;
+}
+
+#igual a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#siete {
+    position: absolute;
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 304px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#siete a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#ocho {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 304px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#ocho a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#nueve {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 304px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#nueve a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#cuatro {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 388px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#cuatro a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#cinco {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 388px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#cinco a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#seis {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 388px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#seis a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#uno {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 472px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#uno a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#dos {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 472px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#dos a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#tres {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 472px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#tres a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#cero {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 20px;
+    top: 556px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#cero a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#punto {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 104px;
+    top: 556px;
+    background: #F3F4F6;
+    box-shadow: 4px 4px 5px #DEE0E3, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#punto a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
+
+#delet {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 188px;
+    top: 556px;
+    background: #E7E9EC;
+    box-shadow: 4px 4px 5px #D4D5D7, -4px -4px 5px #FFFFFF;
+    border-radius: 30px;
+    border: 0cm;
+    color: #627785;
+}
+
+#delet a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: right;
+}
