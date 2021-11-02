@@ -28,8 +28,12 @@ fieldset {
     margin-top: 65px;
     margin-left: 21px;
     margin-right: 21px;
+    text-align: right;
 }
 
+.formatoReporte .inputNombre{
+    font-size: 30px;
+  }
 
 #borrar {
     position: absolute;
