@@ -10,43 +10,46 @@
 </head>
 
 <body>
-    <fieldset>
-        <form class="formatoReporte">
+    <div class="contenedor">
+        <fieldset>
+            <form class="formatoReporte">
+                <input class="inputNombre" type="text" id="resultado" nombre="entrada" value="0"> <br><br>
+            </form>
+            <button id="borrar" onclick="a()"><a>C</a></button>
+            <button id="masMenos"><a>+/-</a></button>
+            <button id="porcentaje"><a>%</a></button> <a></a>
+            <button id="division">
+                <h2>÷</h2>
+            </button> <br>
 
-        <input class="inputNombre"  type="text" id="resultado" nombre="entrada" value="0" > <br><br>
-            
-       
+            <button id="siete" onclick="numero(7)"><a>7</a></button>
+            <button id="ocho" onclick="numero(8)"><a>8</a></button>
+            <button id="nueve" onclick="numero(9)"><a>9</a></button>
+            <button id="por">
+                <h2>×</h2>
+            </button> <br>
 
-         
-         </form>
-        
+            <button id="cuatro" onclick="numero(4)"><a>4</a></button>
+            <button id="cinco" onclick="numero(5)"><a>5</a></button>
+            <button id="seis" onclick="numero(6)"><a>6</a></button>
+            <button id="menos">
+                <h1>—</h1>
+            </button> <br>
 
-        <button id="borrar" onclick="a()"><a>C</a></button>
-        <button id="masMenos"><a>+/-</a></button>
-        <button id="porcentaje"><a>%</a></button> <a></a>
-        <button id="division"><h2>÷</h2></button> <br>
+            <button id="uno" onclick="numero(1)"><a>1</a></button>
+            <button id="dos" onclick="numero(2)"><a>2</a></button>
+            <button id="tres" onclick="numero(3)"><a>3</a></button>
+            <button id="mas">
+                <h2>+</h2>
+            </button> <br>
 
-        <button id="siete" onclick="numero(7)"><a>7</a></button>
-        <button id="ocho" onclick="numero(8)"><a>8</a></button> 
-        <button id="nueve" onclick="numero(9)"><a>9</a></button>
-        <button id="por"><h2>×</h2></button> <br>
+            <button id="cero" onclick="numero(0)"><a>0</a></button>
+            <button id="punto" onclick="numero('.')"><a>.</a></button>
+            <button id="delet" onclick="borrar()"><a>⌂</a></button>
+            <button id="igual"><a>=</a></button>
 
-        <button id="cuatro" onclick="numero(4)"><a>4</a></button>
-        <button id="cinco" onclick="numero(5)"><a>5</a></button>
-        <button id="seis" onclick="numero(6)"><a>6</a></button>
-        <button id="menos"><h1>—</h1></button> <br>
-
-        <button id="uno" onclick="numero(1)"><a>1</a></button>
-        <button id="dos" onclick="numero(2)"><a>2</a></button>
-        <button id="tres" onclick="numero(3)"><a>3</a></button>
-        <button id="mas"><h2>+</h2></button> <br>
-
-        <button id="cero" onclick="numero(0)"><a>0</a></button>
-        <button id="punto" onclick="numero('.')"><a>.</a></button>
-        <button id="delet" onclick="borrar()"><a>⌂</a></button>
-        <button id="igual"><a>=</a></button>
-
-    </fieldset>
+        </fieldset>
+    </div>
     <script src="./Script/script.js"></script>
 </body>
 
